@@ -1,0 +1,254 @@
+/*! Css Laravel Project 26-Aug-2017 */
+
+@font-face{
+    font-family: roboto;
+    src: url('../fonts/rl.woff') format('woff');
+
+}
+
+/****      DESKTOP       ****/
+
+@media (min-width: 1025px) {
+
+    body {
+        /* Common */
+        padding: 0px;
+        margin: 0px;
+        /* STYLE */
+        background-color: #ffffff;
+        /* FONTS */
+        font-family: roboto;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: #3498db;
+        text-decoration: none;
+    }
+
+    /* HEADER */
+
+    #owl-demo .item1 .item2 .item3
+    {
+        padding: 0px 0px;
+        margin: 80px 0 0 0;
+        border-radius: 3px;
+        text-align: center;
+        font-size:10px;
+
+    }
+    /* SLIDE 1 */
+
+    .item1 h1
+    {
+        margin: -300px 0px 0px 870px;
+        font-size: 40px;
+        position:absolute;
+    }
+    .item1 p
+    {
+        margin: -350px 0px 0px 850px;
+        position:absolute;
+        font-size: 18px;
+    }
+    .item1 a
+    {
+        margin: -220px 0px 0px 900px;
+        position:absolute;
+        font-size: 30px;
+    }
+
+    /* SLIDE 2 */
+
+    .item2 h1
+    {
+        margin: -300px 0px 0px 80px;
+        font-size: 4rem;
+        position:absolute;
+    }
+    .item2 p
+    {
+        margin: -350px 0px 0px 80px;
+        position:absolute;
+        font-size: 2rem;
+    }
+    .item2 a
+    {
+        margin: -200px 0px 0px 80px;
+        position:absolute;
+        font-size: 3rem;
+        color: black;
+    }
+    button
+    {
+        padding: 10px;
+        border: none;
+        background-color: #f04187;
+        color: white;
+    }
+
+    /* SLIDE 3 */
+
+    .item3 h1
+    {
+        margin: -300px 0px 0px 790px;
+        font-size: 40px;
+        position:absolute;
+        color: white;
+    }
+    .item3 p
+    {
+        margin: -350px 0px 0px 920px;
+        position:absolute;
+        font-size: 18px;
+        color: white;
+    }
+    .item3 a
+    {
+        margin: -220px 0px 0px 920px;
+        position:absolute;
+        font-size: 30px;
+        color: black;
+    }
+
+    /* SECTION 1 */
+
+    #mid-sec{
+        text-align: center;
+    }
+
+    #full-panel img{
+        width: 100%;
+    }
+
+    /* SECTION 2 */
+
+    .overlay1{
+        display:none;
+    }
+    .overlay3{
+        display:none;
+    }
+    .overlay2{
+        display:none;
+    }
+
+    #hello-moto{
+        margin: 5%;
+        height: 400px;
+    }
+
+    /* SECTION 3 */
+
+    #blogs{
+        height: 250px;
+    }
+    #blog1{
+        background-color: lightgray;
+        height: 250px;
+        padding-top: 5%;
+    }
+    #inner-blog{
+        float: right;
+    }
+    #inner-blog img{
+        padding-right: 20px;
+    }
+    #blog2{
+        background-color: orange;
+        height: 250px;
+        padding-top: 5%;
+        text-align: center;
+        color: white;
+    }
+    #blog3{
+        background-color: lightskyblue;
+        height: 250px;
+        padding-top: 5%;
+        text-align: center;
+        color: white;
+    }
+    #blue-bar{
+        height: 80px;
+        background-color: #1b6d85;
+        color: white;
+        margin: 10px 0 10px 0;
+        padding: 20px;
+    }
+    #blue-bar i{
+        padding: 1%;
+        background-color: white;
+        color: #1b6d85;
+        border-radius: 2px;
+        font-size: x-large;
+        margin: 4px;
+    }
+
+    /* Footer */
+
+    footer{
+        margin-top: 10%;
+    }
+
+    #sec{
+        display: inline-table;
+        line-height: 2;
+        margin-left: 2%;
+        padding: 0 5% 0 5%;
+    }
+    #terms{
+        background-color: #222c30;
+        height: 600px;
+        color: #6c7477;
+    }
+    #terms-1{
+        padding: 2%;
+    }
+    #terms-2{
+        padding: 2%;
+        font-size: small;
+    }
+
+    /*-------------------*/
+     /*-----ABOUT-------*/
+    /*------------------*/
+
+    #about{
+        margin: 0% 10%;
+
+    }
+
+}
+/****      TAB        ****/
+
+@media (max-width: 1024px) {
+    body {
+        /* Common */
+        padding: 0px;
+        margin: 0px;
+        /* STYLE */
+        background-color: #ffffff;
+        font-family: roboto;
+    }
+}
+
+
+
+/****      MOBILE       ****/
+
+@media (max-width: 400px) {
+    body {
+        /* Common */
+        padding: 0px;
+        margin: 0px;
+        /* STYLE */
+        background-color: #ffffff;
+        font-family: roboto;
+    }
+
+
+}
